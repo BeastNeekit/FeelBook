@@ -1,0 +1,117 @@
+body{
+    cursor: url('../../images/cursor1.png'), default !important;
+}
+.LogIn {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.LogIn h1 {
+    text-align: center;
+    color: #333;
+}
+
+.LogIn input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.LogIn button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.LogIn button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
+.register {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register h1 {
+    text-align: center;
+    color: #333;
+}
+
+.register input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.register button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.login-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+

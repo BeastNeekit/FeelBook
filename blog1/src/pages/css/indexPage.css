@@ -1,0 +1,27 @@
+.header-content {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.banner {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 10px 0;
+}

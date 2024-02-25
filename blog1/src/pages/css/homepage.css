@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: #0056b3;
+}
+
+.news-feed {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.post-form {
+    margin-bottom: 1rem;
+}
+
+.post-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.post-form button:hover {
+    background-color: #0056b3;
+}
+
+.post-list {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.post-content {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-author {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.T1 {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+
+.feelBook-logo {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.T1 img {
+    display: block;
+}
+
+
+
+.post img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-content {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.post-author {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.welcome-message {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-name {
+    margin-left: 8px;
+    color: #007bff;
+}
+
+.user-profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 4px -25px 0;
+}
+
+

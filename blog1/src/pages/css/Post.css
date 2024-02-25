@@ -1,0 +1,60 @@
+.post {
+    display: flex;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.post:hover {
+    transform: scale(1.05);
+}
+
+.post .image {
+    flex: 0 0 30%;
+}
+
+.post .image img {
+    width: 30%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.post .image img:hover {
+    transform: scale(1.6);
+}
+
+.post .content {
+    flex: 1;
+    padding: 20px;
+}
+
+.post .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.post .description {
+    font-size: 16px;
+    color: #666;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+.details-content {
+    border: 1px solid #708380;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%; /* Adjust the width of the content */
+    max-width: 650px; /* Set a maximum width if needed */
+}

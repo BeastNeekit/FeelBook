@@ -1,0 +1,44 @@
+.header-container {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.header-text {
+    margin-left: 20px;
+}
+
+.header-posts {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
